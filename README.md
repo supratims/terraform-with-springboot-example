@@ -12,5 +12,5 @@ We are using terraform here
 
 ### Terraform
 * Replace path in terraform/setup.tf and provide your own gcp credentials
+     
      `  credentials = "${file("/opt/secrets/gcp-secret-59fbc1d0e021.json")}" `
-* 
