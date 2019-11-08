@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = "${file("/home/interviewparrot/interviewparrot-admin-59fbc1d0e021.json")}"
+  credentials = "${file("/opt/secrets/gcp-secret-59fbc1d0e021.json")}"
   project     = "interviewparrot"
   region      = "us-east1"
 }
